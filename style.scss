@@ -9,16 +9,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(182, 143, 182);
+  background-color: rgb(121, 187, 181);
 
-  .animal-body {
+  .animal-body-stag {
     width: 50%;
     height: 50%;
-    background-color: rgb(121, 187, 181);
+    min-width: 300px;
+    min-height: 200px;
 
     .animal-part-container {
       position: absolute;
       width: 50%;
+      min-width: 300px;
+      min-height: 200px;
+      max-width: 600px;
+      max-height: 450px;
       height: 50%;
 
       .animal-part {
@@ -26,144 +31,191 @@ body {
         width: 100%;
         height: 100%;
       }
+
       #one {
-        clip-path: polygon(20% 45%, 28% 32%, 48% 34%);
+        animation-delay: 0s;
+        clip-path: polygon(19% 44%, 28% 31%, 48% 34%);
         background-color: rgb(240, 221, 207);
       }
 
       #two {
-        clip-path: polygon(20% 45%, 35% 55%, 48% 34%);
+        animation-delay: 0s;
+        clip-path: polygon(19% 43%, 35% 55%, 48% 34%);
         background-color: rgb(218, 205, 188);
       }
 
       #three {
-        clip-path: polygon(20% 45%, 35% 55%, 19% 53%);
+        animation-delay: 0s;
+        clip-path: polygon(19% 43%, 35% 55%, 19% 53%);
         background-color: rgb(174, 136, 109);
       }
 
       #four {
+        animation-delay: 0s;
         clip-path: polygon(18% 67%, 35% 55%, 19% 53%);
         background-color: rgb(215, 197, 164);
       }
 
       #five {
-        clip-path: polygon(18% 67%, 27% 60%, 19% 86%);
+        animation-delay: 0.1s;
+        clip-path: polygon(18% 67%, 27% 60%, 21% 86%);
         background-color: rgb(242, 225, 197);
       }
 
       #six {
+        animation-delay: 0.1s;
         clip-path: polygon(27% 60%, 35% 55%, 32% 87%);
         background-color: rgb(138, 119, 108);
       }
 
       #seven {
+        animation-delay: 0.1s;
         clip-path: polygon(35% 55%, 40% 47%, 44% 62%);
         background-color: rgb(123, 115, 98);
       }
 
       #eight {
+        animation-delay: 0.1s;
         clip-path: polygon(39% 47%, 55% 45%, 44% 62%);
         background-color: rgb(207, 186, 145);
       }
 
       #nine {
+        animation-delay: 0.2s;
         clip-path: polygon(39% 47%, 55% 45%, 48% 34%);
-        background-color: rgb(235, 223, 201);
+        background-color: rgb(233, 220, 196);
       }
 
       #ten {
-        clip-path: polygon(62% 33%, 55% 45%, 48% 34%);
+        animation-delay: 0.2s;
+        clip-path: polygon(62% 33%, 55% 47%, 48% 34%);
         background-color: rgb(235, 225, 203);
       }
 
       #eleven {
+        animation-delay: 0.2s;
         clip-path: polygon(62% 33%, 55% 30%, 48% 34%);
         background-color: rgb(243, 234, 223);
       }
 
       #twelve {
+        animation-delay: 0.2s;
         clip-path: polygon(62% 33%, 66% 50%, 54% 45%);
         background-color: rgb(221, 207, 183);
       }
 
       #thirteen {
+        animation-delay: 0.3s;
         clip-path: polygon(44% 62%, 61% 59%, 54% 45%);
         background-color: rgb(189, 177, 154);
       }
 
       #fourteen {
+        animation-delay: 0.3s;
         clip-path: polygon(69% 51%, 65% 67%, 54% 45%);
         background-color: rgb(235, 225, 203);
       }
 
       #fifteen {
-        clip-path: polygon(65% 67%, 62% 86%, 62% 61%);
+        animation-delay: 0.3s;
+        clip-path: polygon(65% 67%, 62% 86%, 61% 59%);
         background-color: rgb(168, 159, 146);
       }
 
       #sixteen {
-        clip-path: polygon(69% 50%, 68% 86%, 66% 62%);
+        animation-delay: 0.3s;
+        clip-path: polygon(69% 50%, 68% 86%, 64% 65%);
         background-color: rgb(138, 123, 99);
       }
 
       #seventeen {
-        clip-path: polygon(72% 54%, 66% 32%, 66% 62%);
+        animation-delay: 0.4s;
+        clip-path: polygon(73% 52%, 66% 32%, 65% 63%);
         background-color: rgb(120, 82, 59);
       }
 
       #eightteen {
+        animation-delay: 0.4s;
         clip-path: polygon(72% 54%, 66% 32%, 80% 28%);
         background-color: rgb(130, 93, 72);
       }
 
       #nineteen {
+        animation-delay: 0.4s;
         clip-path: polygon(74% 19%, 66% 32%, 80% 29%);
         background-color: rgb(162, 120, 92);
       }
 
       #twenty {
+        animation-delay: 0.4s;
         clip-path: polygon(74% 19%, 79% 19%, 80% 29%);
         background-color: rgb(185, 141, 93);
       }
 
       #twentyone {
-        clip-path: polygon(62% 33%, 66% 32%, 66% 50%);
+        animation-delay: 0.6s;
+        clip-path: polygon(62% 33%, 67% 31%, 65% 52%);
         background-color: rgb(235, 225, 203);
       }
 
       #twentytwo {
+        animation-delay: 0.5s;
         clip-path: polygon(82% 31%, 80% 27%, 72% 54%);
         background-color: rgb(99, 76, 57);
       }
 
       #twentythree {
+        animation-delay: 0.5s;
         clip-path: polygon(82% 31%, 80% 27%, 91% 32%);
         background-color: rgb(175, 164, 145);
       }
 
       #twentyfour {
+        animation-delay: 0.6s;
         clip-path: polygon(92% 28%, 80% 27%, 91% 32%);
         background-color: rgb(180, 171, 160);
       }
 
       #twentyfive {
+        animation-delay: 0.6s;
         clip-path: polygon(86% 21%, 80% 28%, 78% 16%);
         background-color: rgb(236, 225, 213);
       }
 
       #twentysix {
+        animation-delay: 0.6s;
         clip-path: polygon(92% 28%, 81% 27%, 85% 22%);
         background-color: rgb(210, 201, 193);
       }
 
       #twentyseven {
+        animation-delay: 0.7s;
         clip-path: polygon(81% 8%, 76% 19%, 79% 19%);
         background-color: rgb(200, 192, 185);
       }
 
       #twentyeight {
+        animation-delay: 0.7s;
         clip-path: polygon(74% 13%, 75% 19%, 78% 19%);
         background-color: rgb(119, 98, 68);
+      }
+
+      #twentynine {
+        animation-delay: 0.7s;
+        clip-path: polygon(76% 7%, 75% 6%, 76% 19%, 78% 19%);
+        background-color: rgb(81, 76, 73);
+      }
+
+      #thirty {
+        animation-delay: 0.7s;
+        clip-path: polygon(76% 7%, 75% 6%, 56% 3%, 75% 8%);
+        background-color: rgb(49, 47, 52);
+      }
+
+      #thirtyone {
+        animation-delay: 0.8s;
+        clip-path: polygon(57% 3%, 61% 4%, 33% 16%);
+        background-color: rgb(39, 34, 32);
       }
     }
   }

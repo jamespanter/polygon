@@ -16,192 +16,277 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #b68fb6;
-}
-
-body .animal-body {
-  width: 50%;
-  height: 50%;
   background-color: #79bbb5;
 }
 
-body .animal-body .animal-part-container {
+body .animal-body-stag {
+  width: 50%;
+  height: 50%;
+  min-width: 300px;
+  min-height: 200px;
+}
+
+body .animal-body-stag .animal-part-container {
   position: absolute;
   width: 50%;
+  min-width: 300px;
+  min-height: 200px;
+  max-width: 600px;
+  max-height: 450px;
   height: 50%;
 }
 
-body .animal-body .animal-part-container .animal-part {
+body .animal-body-stag .animal-part-container .animal-part {
   position: relative;
   width: 100%;
   height: 100%;
 }
 
-body .animal-body .animal-part-container #one {
-  -webkit-clip-path: polygon(20% 45%, 28% 32%, 48% 34%);
-          clip-path: polygon(20% 45%, 28% 32%, 48% 34%);
+body .animal-body-stag .animal-part-container #one {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-clip-path: polygon(19% 44%, 28% 31%, 48% 34%);
+          clip-path: polygon(19% 44%, 28% 31%, 48% 34%);
   background-color: #f0ddcf;
 }
 
-body .animal-body .animal-part-container #two {
-  -webkit-clip-path: polygon(20% 45%, 35% 55%, 48% 34%);
-          clip-path: polygon(20% 45%, 35% 55%, 48% 34%);
+body .animal-body-stag .animal-part-container #two {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-clip-path: polygon(19% 43%, 35% 55%, 48% 34%);
+          clip-path: polygon(19% 43%, 35% 55%, 48% 34%);
   background-color: #dacdbc;
 }
 
-body .animal-body .animal-part-container #three {
-  -webkit-clip-path: polygon(20% 45%, 35% 55%, 19% 53%);
-          clip-path: polygon(20% 45%, 35% 55%, 19% 53%);
+body .animal-body-stag .animal-part-container #three {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-clip-path: polygon(19% 43%, 35% 55%, 19% 53%);
+          clip-path: polygon(19% 43%, 35% 55%, 19% 53%);
   background-color: #ae886d;
 }
 
-body .animal-body .animal-part-container #four {
+body .animal-body-stag .animal-part-container #four {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
   -webkit-clip-path: polygon(18% 67%, 35% 55%, 19% 53%);
           clip-path: polygon(18% 67%, 35% 55%, 19% 53%);
   background-color: #d7c5a4;
 }
 
-body .animal-body .animal-part-container #five {
-  -webkit-clip-path: polygon(18% 67%, 27% 60%, 19% 86%);
-          clip-path: polygon(18% 67%, 27% 60%, 19% 86%);
+body .animal-body-stag .animal-part-container #five {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  -webkit-clip-path: polygon(18% 67%, 27% 60%, 21% 86%);
+          clip-path: polygon(18% 67%, 27% 60%, 21% 86%);
   background-color: #f2e1c5;
 }
 
-body .animal-body .animal-part-container #six {
+body .animal-body-stag .animal-part-container #six {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
   -webkit-clip-path: polygon(27% 60%, 35% 55%, 32% 87%);
           clip-path: polygon(27% 60%, 35% 55%, 32% 87%);
   background-color: #8a776c;
 }
 
-body .animal-body .animal-part-container #seven {
+body .animal-body-stag .animal-part-container #seven {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
   -webkit-clip-path: polygon(35% 55%, 40% 47%, 44% 62%);
           clip-path: polygon(35% 55%, 40% 47%, 44% 62%);
   background-color: #7b7362;
 }
 
-body .animal-body .animal-part-container #eight {
+body .animal-body-stag .animal-part-container #eight {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
   -webkit-clip-path: polygon(39% 47%, 55% 45%, 44% 62%);
           clip-path: polygon(39% 47%, 55% 45%, 44% 62%);
   background-color: #cfba91;
 }
 
-body .animal-body .animal-part-container #nine {
+body .animal-body-stag .animal-part-container #nine {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
   -webkit-clip-path: polygon(39% 47%, 55% 45%, 48% 34%);
           clip-path: polygon(39% 47%, 55% 45%, 48% 34%);
-  background-color: #ebdfc9;
+  background-color: #e9dcc4;
 }
 
-body .animal-body .animal-part-container #ten {
-  -webkit-clip-path: polygon(62% 33%, 55% 45%, 48% 34%);
-          clip-path: polygon(62% 33%, 55% 45%, 48% 34%);
+body .animal-body-stag .animal-part-container #ten {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  -webkit-clip-path: polygon(62% 33%, 55% 47%, 48% 34%);
+          clip-path: polygon(62% 33%, 55% 47%, 48% 34%);
   background-color: #ebe1cb;
 }
 
-body .animal-body .animal-part-container #eleven {
+body .animal-body-stag .animal-part-container #eleven {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
   -webkit-clip-path: polygon(62% 33%, 55% 30%, 48% 34%);
           clip-path: polygon(62% 33%, 55% 30%, 48% 34%);
   background-color: #f3eadf;
 }
 
-body .animal-body .animal-part-container #twelve {
+body .animal-body-stag .animal-part-container #twelve {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
   -webkit-clip-path: polygon(62% 33%, 66% 50%, 54% 45%);
           clip-path: polygon(62% 33%, 66% 50%, 54% 45%);
   background-color: #ddcfb7;
 }
 
-body .animal-body .animal-part-container #thirteen {
+body .animal-body-stag .animal-part-container #thirteen {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
   -webkit-clip-path: polygon(44% 62%, 61% 59%, 54% 45%);
           clip-path: polygon(44% 62%, 61% 59%, 54% 45%);
   background-color: #bdb19a;
 }
 
-body .animal-body .animal-part-container #fourteen {
+body .animal-body-stag .animal-part-container #fourteen {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
   -webkit-clip-path: polygon(69% 51%, 65% 67%, 54% 45%);
           clip-path: polygon(69% 51%, 65% 67%, 54% 45%);
   background-color: #ebe1cb;
 }
 
-body .animal-body .animal-part-container #fifteen {
-  -webkit-clip-path: polygon(65% 67%, 62% 86%, 62% 61%);
-          clip-path: polygon(65% 67%, 62% 86%, 62% 61%);
+body .animal-body-stag .animal-part-container #fifteen {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+  -webkit-clip-path: polygon(65% 67%, 62% 86%, 61% 59%);
+          clip-path: polygon(65% 67%, 62% 86%, 61% 59%);
   background-color: #a89f92;
 }
 
-body .animal-body .animal-part-container #sixteen {
-  -webkit-clip-path: polygon(69% 50%, 68% 86%, 66% 62%);
-          clip-path: polygon(69% 50%, 68% 86%, 66% 62%);
+body .animal-body-stag .animal-part-container #sixteen {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+  -webkit-clip-path: polygon(69% 50%, 68% 86%, 64% 65%);
+          clip-path: polygon(69% 50%, 68% 86%, 64% 65%);
   background-color: #8a7b63;
 }
 
-body .animal-body .animal-part-container #seventeen {
-  -webkit-clip-path: polygon(72% 54%, 66% 32%, 66% 62%);
-          clip-path: polygon(72% 54%, 66% 32%, 66% 62%);
+body .animal-body-stag .animal-part-container #seventeen {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+  -webkit-clip-path: polygon(73% 52%, 66% 32%, 65% 63%);
+          clip-path: polygon(73% 52%, 66% 32%, 65% 63%);
   background-color: #78523b;
 }
 
-body .animal-body .animal-part-container #eightteen {
+body .animal-body-stag .animal-part-container #eightteen {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
   -webkit-clip-path: polygon(72% 54%, 66% 32%, 80% 28%);
           clip-path: polygon(72% 54%, 66% 32%, 80% 28%);
   background-color: #825d48;
 }
 
-body .animal-body .animal-part-container #nineteen {
+body .animal-body-stag .animal-part-container #nineteen {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
   -webkit-clip-path: polygon(74% 19%, 66% 32%, 80% 29%);
           clip-path: polygon(74% 19%, 66% 32%, 80% 29%);
   background-color: #a2785c;
 }
 
-body .animal-body .animal-part-container #twenty {
+body .animal-body-stag .animal-part-container #twenty {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
   -webkit-clip-path: polygon(74% 19%, 79% 19%, 80% 29%);
           clip-path: polygon(74% 19%, 79% 19%, 80% 29%);
   background-color: #b98d5d;
 }
 
-body .animal-body .animal-part-container #twentyone {
-  -webkit-clip-path: polygon(62% 33%, 66% 32%, 66% 50%);
-          clip-path: polygon(62% 33%, 66% 32%, 66% 50%);
+body .animal-body-stag .animal-part-container #twentyone {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+  -webkit-clip-path: polygon(62% 33%, 67% 31%, 65% 52%);
+          clip-path: polygon(62% 33%, 67% 31%, 65% 52%);
   background-color: #ebe1cb;
 }
 
-body .animal-body .animal-part-container #twentytwo {
+body .animal-body-stag .animal-part-container #twentytwo {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
   -webkit-clip-path: polygon(82% 31%, 80% 27%, 72% 54%);
           clip-path: polygon(82% 31%, 80% 27%, 72% 54%);
   background-color: #634c39;
 }
 
-body .animal-body .animal-part-container #twentythree {
+body .animal-body-stag .animal-part-container #twentythree {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
   -webkit-clip-path: polygon(82% 31%, 80% 27%, 91% 32%);
           clip-path: polygon(82% 31%, 80% 27%, 91% 32%);
   background-color: #afa491;
 }
 
-body .animal-body .animal-part-container #twentyfour {
+body .animal-body-stag .animal-part-container #twentyfour {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
   -webkit-clip-path: polygon(92% 28%, 80% 27%, 91% 32%);
           clip-path: polygon(92% 28%, 80% 27%, 91% 32%);
   background-color: #b4aba0;
 }
 
-body .animal-body .animal-part-container #twentyfive {
+body .animal-body-stag .animal-part-container #twentyfive {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
   -webkit-clip-path: polygon(86% 21%, 80% 28%, 78% 16%);
           clip-path: polygon(86% 21%, 80% 28%, 78% 16%);
   background-color: #ece1d5;
 }
 
-body .animal-body .animal-part-container #twentysix {
+body .animal-body-stag .animal-part-container #twentysix {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
   -webkit-clip-path: polygon(92% 28%, 81% 27%, 85% 22%);
           clip-path: polygon(92% 28%, 81% 27%, 85% 22%);
   background-color: #d2c9c1;
 }
 
-body .animal-body .animal-part-container #twentyseven {
+body .animal-body-stag .animal-part-container #twentyseven {
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
   -webkit-clip-path: polygon(81% 8%, 76% 19%, 79% 19%);
           clip-path: polygon(81% 8%, 76% 19%, 79% 19%);
   background-color: #c8c0b9;
 }
 
-body .animal-body .animal-part-container #twentyeight {
+body .animal-body-stag .animal-part-container #twentyeight {
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
   -webkit-clip-path: polygon(74% 13%, 75% 19%, 78% 19%);
           clip-path: polygon(74% 13%, 75% 19%, 78% 19%);
   background-color: #776244;
+}
+
+body .animal-body-stag .animal-part-container #twentynine {
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+  -webkit-clip-path: polygon(76% 7%, 75% 6%, 76% 19%, 78% 19%);
+          clip-path: polygon(76% 7%, 75% 6%, 76% 19%, 78% 19%);
+  background-color: #514c49;
+}
+
+body .animal-body-stag .animal-part-container #thirty {
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+  -webkit-clip-path: polygon(76% 7%, 75% 6%, 56% 3%, 75% 8%);
+          clip-path: polygon(76% 7%, 75% 6%, 56% 3%, 75% 8%);
+  background-color: #312f34;
+}
+
+body .animal-body-stag .animal-part-container #thirtyone {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+  -webkit-clip-path: polygon(57% 3%, 61% 4%, 33% 16%);
+          clip-path: polygon(57% 3%, 61% 4%, 33% 16%);
+  background-color: #272220;
 }
 /*# sourceMappingURL=style.css.map */
