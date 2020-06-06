@@ -1,6 +1,6 @@
 .slit-in-vertical {
-  -webkit-animation: slit-in-vertical 0.45s ease-out both;
-  animation: slit-in-vertical 0.45s ease-out both;
+  -webkit-animation: slit-in-vertical 0.85s ease-in-out both;
+  animation: slit-in-vertical 0.85s ease-in-out both;
 }
 
 @-webkit-keyframes slit-in-vertical {

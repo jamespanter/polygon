@@ -29,11 +29,11 @@ body .animal-body-stag {
 body .animal-body-stag .animal-part-container {
   position: absolute;
   width: 50%;
+  height: 50%;
   min-width: 300px;
   min-height: 200px;
   max-width: 600px;
   max-height: 450px;
-  height: 50%;
 }
 
 body .animal-body-stag .animal-part-container .animal-part {
@@ -288,5 +288,348 @@ body .animal-body-stag .animal-part-container #thirtyone {
   -webkit-clip-path: polygon(57% 3%, 61% 4%, 33% 16%);
           clip-path: polygon(57% 3%, 61% 4%, 33% 16%);
   background-color: #272220;
+}
+
+body .animal-body-wolf {
+  width: 50%;
+  height: 50%;
+  min-width: 300px;
+  min-height: 200px;
+}
+
+body .animal-body-wolf .animal-part-container {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  min-width: 300px;
+  min-height: 200px;
+  max-width: 600px;
+  max-height: 450px;
+}
+
+body .animal-body-wolf .animal-part-container .animal-part {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+body .animal-body-wolf .animal-part-container #one {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-clip-path: polygon(1% 65%, 6% 55%, 6% 83%, 1% 88%);
+          clip-path: polygon(1% 65%, 6% 55%, 6% 83%, 1% 88%);
+  background-color: #dbc7ab;
+}
+
+body .animal-body-wolf .animal-part-container #two {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-clip-path: polygon(1% 65%, 7% 38%, 16% 24%, 21% 27%);
+          clip-path: polygon(1% 65%, 7% 38%, 16% 24%, 21% 27%);
+  background-color: #d8be9b;
+}
+
+body .animal-body-wolf .animal-part-container #three {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-clip-path: polygon(6% 83%, 5% 57%, 16% 36%, 10% 74%);
+          clip-path: polygon(6% 83%, 5% 57%, 16% 36%, 10% 74%);
+  background-color: #bba385;
+}
+
+body .animal-body-wolf .animal-part-container #four {
+  -webkit-clip-path: polygon(10% 74%, 11% 62%, 16% 35%, 15% 64%);
+          clip-path: polygon(10% 74%, 11% 62%, 16% 35%, 15% 64%);
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  background-color: #d7c5a4;
+}
+
+body .animal-body-wolf .animal-part-container #five {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  -webkit-clip-path: polygon(38% 36%, 27% 47%, 16% 46%, 16% 36%, 20% 26%);
+          clip-path: polygon(38% 36%, 27% 47%, 16% 46%, 16% 36%, 20% 26%);
+  background-color: #b4a78f;
+}
+
+body .animal-body-wolf .animal-part-container #six {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  background-color: #a19683;
+  -webkit-clip-path: polygon(31% 19%, 16% 24%, 38% 36%);
+          clip-path: polygon(31% 19%, 16% 24%, 38% 36%);
+}
+
+body .animal-body-wolf .animal-part-container #seven {
+  background-color: #d6c29c;
+  -webkit-clip-path: polygon(56% 45%, 38% 58%, 38% 36%);
+          clip-path: polygon(56% 45%, 38% 58%, 38% 36%);
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+
+body .animal-body-wolf .animal-part-container #eight {
+  background-color: #978d7a;
+  -webkit-clip-path: polygon(21% 100%, 26% 93%, 30% 95%);
+          clip-path: polygon(21% 100%, 26% 93%, 30% 95%);
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+
+body .animal-body-wolf .animal-part-container #nine {
+  background-color: #d7c5a4;
+  -webkit-clip-path: polygon(31% 19%, 49% 23%, 59% 47%, 38% 36%);
+          clip-path: polygon(31% 19%, 49% 23%, 59% 47%, 38% 36%);
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+body .animal-body-wolf .animal-part-container #ten {
+  background-color: #a8987a;
+  -webkit-clip-path: polygon(60% 36%, 48% 23%, 64% 22%);
+          clip-path: polygon(60% 36%, 48% 23%, 64% 22%);
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+body .animal-body-wolf .animal-part-container #eleven {
+  background-color: #a7926b;
+  -webkit-clip-path: polygon(60% 36%, 69% 47%, 64% 22%);
+          clip-path: polygon(60% 36%, 69% 47%, 64% 22%);
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+body .animal-body-wolf .animal-part-container #twelve {
+  background-color: #af925c;
+  -webkit-clip-path: polygon(81% 1%, 87% 11%, 81% 11%);
+          clip-path: polygon(81% 1%, 87% 11%, 81% 11%);
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+body .animal-body-wolf .animal-part-container #thirteen {
+  background-color: #a59880;
+  -webkit-clip-path: polygon(71% 100%, 75% 98%, 71% 95%);
+          clip-path: polygon(71% 100%, 75% 98%, 71% 95%);
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+body .animal-body-wolf .animal-part-container #fourteen {
+  -webkit-clip-path: polygon(27% 47%, 38% 36%, 38% 57%, 31% 73%);
+          clip-path: polygon(27% 47%, 38% 36%, 38% 57%, 31% 73%);
+  background-color: #d7c5a4;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+body .animal-body-wolf .animal-part-container #fifteen {
+  -webkit-clip-path: polygon(19% 55%, 14% 78%, 22% 63%);
+          clip-path: polygon(19% 55%, 14% 78%, 22% 63%);
+  background-color: #ac9f87;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+body .animal-body-wolf .animal-part-container #sixteen {
+  background-color: #d7c5a4;
+  -webkit-clip-path: polygon(21% 62%, 14% 78%, 17% 84%);
+          clip-path: polygon(21% 62%, 14% 78%, 17% 84%);
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+body .animal-body-wolf .animal-part-container #seventeen {
+  background-color: #d7c5a4;
+  -webkit-clip-path: polygon(25% 101%, 16% 82%, 23% 85%);
+          clip-path: polygon(25% 101%, 16% 82%, 23% 85%);
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+body .animal-body-wolf .animal-part-container #eightteen {
+  background-color: #dac398;
+  -webkit-clip-path: polygon(75% 13%, 75% 30%, 64% 22%);
+          clip-path: polygon(75% 13%, 75% 30%, 64% 22%);
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+body .animal-body-wolf .animal-part-container #nineteen {
+  -webkit-clip-path: polygon(68% 46%, 75% 30%, 64% 22%);
+          clip-path: polygon(68% 46%, 75% 30%, 64% 22%);
+  background-color: #d7c5a4;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+body .animal-body-wolf .animal-part-container #twenty {
+  -webkit-clip-path: polygon(68% 46%, 75% 30%, 77% 59%);
+          clip-path: polygon(68% 46%, 75% 30%, 77% 59%);
+  background-color: #e4cea7;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+body .animal-body-wolf .animal-part-container #twentyone {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+  -webkit-clip-path: polygon(16% 46%, 27% 47%, 31% 73%, 21% 62%);
+          clip-path: polygon(16% 46%, 27% 47%, 31% 73%, 21% 62%);
+  background-color: #d3bf9c;
+}
+
+body .animal-body-wolf .animal-part-container #twentytwo {
+  background-color: #e4cea7;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-clip-path: polygon(17% 83%, 23% 85%, 31% 73%, 21% 62%);
+          clip-path: polygon(17% 83%, 23% 85%, 31% 73%, 21% 62%);
+}
+
+body .animal-body-wolf .animal-part-container #twentythree {
+  -webkit-clip-path: polygon(75% 31%, 88% 22%, 80% 9%, 74% 14%);
+          clip-path: polygon(75% 31%, 88% 22%, 80% 9%, 74% 14%);
+  background-color: #e4cea7;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+body .animal-body-wolf .animal-part-container #twentyfour {
+  -webkit-clip-path: polygon(88% 23%, 97% 22%, 100% 13%, 90% 12%);
+          clip-path: polygon(88% 23%, 97% 22%, 100% 13%, 90% 12%);
+  background-color: #e4cea7;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+body .animal-body-wolf .animal-part-container #twentyfive {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+  -webkit-clip-path: polygon(48% 23%, 60% 36%, 69% 47%, 62% 65%);
+          clip-path: polygon(48% 23%, 60% 36%, 69% 47%, 62% 65%);
+  background-color: #b9a98c;
+}
+
+body .animal-body-wolf .animal-part-container #twentysix {
+  -webkit-clip-path: polygon(55% 44%, 38% 58%, 47% 63%, 62% 65%);
+          clip-path: polygon(55% 44%, 38% 58%, 47% 63%, 62% 65%);
+  background-color: #e4cea7;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+body .animal-body-wolf .animal-part-container #twentyseven {
+  -webkit-clip-path: polygon(69% 47%, 64% 59%, 70% 67%, 77% 58%);
+          clip-path: polygon(69% 47%, 64% 59%, 70% 67%, 77% 58%);
+  background-color: #c9b798;
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+
+body .animal-body-wolf .animal-part-container #twentyeight {
+  -webkit-clip-path: polygon(75% 30%, 76% 59%, 87% 33%);
+          clip-path: polygon(75% 30%, 76% 59%, 87% 33%);
+  background-color: #d1c1a5;
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+
+body .animal-body-wolf .animal-part-container #twentynine {
+  -webkit-clip-path: polygon(75% 30%, 88% 22%, 87% 33%);
+          clip-path: polygon(75% 30%, 88% 22%, 87% 33%);
+  background-color: #ccbca0;
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+
+body .animal-body-wolf .animal-part-container #thirty {
+  -webkit-clip-path: polygon(80% 9%, 90% 12%, 88% 23%);
+          clip-path: polygon(80% 9%, 90% 12%, 88% 23%);
+  background-color: #c5b69b;
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+
+body .animal-body-wolf .animal-part-container #thirtyone {
+  -webkit-clip-path: polygon(61% 65%, 64% 60%, 67% 73%, 63% 89%);
+          clip-path: polygon(61% 65%, 64% 60%, 67% 73%, 63% 89%);
+  background-color: #c4b398;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+body .animal-body-wolf .animal-part-container #thirtytwo {
+  -webkit-clip-path: polygon(60% 91%, 57% 64%, 62% 63%, 61% 76%);
+          clip-path: polygon(60% 91%, 57% 64%, 62% 63%, 61% 76%);
+  background-color: #d6c3a2;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+body .animal-body-wolf .animal-part-container #thirtythree {
+  -webkit-clip-path: polygon(64% 100%, 60% 91%, 62% 63%, 63% 88%);
+          clip-path: polygon(64% 100%, 60% 91%, 62% 63%, 63% 88%);
+  background-color: #b4a68c;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+body .animal-body-wolf .animal-part-container #thirtyfour {
+  -webkit-clip-path: polygon(64% 100%, 68% 100%, 66% 77%, 63% 88%);
+          clip-path: polygon(64% 100%, 68% 100%, 66% 77%, 63% 88%);
+  background-color: #c2b6a4;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+body .animal-body-wolf .animal-part-container #thirtyfive {
+  -webkit-clip-path: polygon(71% 100%, 71% 95%, 67% 97%, 66% 100%);
+          clip-path: polygon(71% 100%, 71% 95%, 67% 97%, 66% 100%);
+  background-color: #c2af8e;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+body .animal-body-wolf .animal-part-container #thirtysix {
+  -webkit-clip-path: polygon(30% 95%, 33% 98%, 29% 100%, 21% 100%);
+          clip-path: polygon(30% 95%, 33% 98%, 29% 100%, 21% 100%);
+  background-color: #c2af8e;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+body .animal-body-wolf .animal-part-container #thirtyseven {
+  -webkit-clip-path: polygon(25% 98%, 21% 100%, 16% 90%, 17% 84%);
+          clip-path: polygon(25% 98%, 21% 100%, 16% 90%, 17% 84%);
+  background-color: #c2af8e;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+body .animal-body-wolf .animal-part-container #thirtyeight {
+  -webkit-clip-path: polygon(78% 1%, 75% 13%, 81% 9%);
+          clip-path: polygon(78% 1%, 75% 13%, 81% 9%);
+  background-color: #a89674;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+body .animal-body-wolf .animal-part-container #thirtynine {
+  -webkit-clip-path: polygon(80% 10%, 90% 12%, 79% 4%);
+          clip-path: polygon(80% 10%, 90% 12%, 79% 4%);
+  background-color: #ccbca0;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+body .animal-body-wolf .animal-part-container #forty {
+  -webkit-clip-path: polygon(66% 77%, 64% 59%, 70% 64%, 67% 91%);
+          clip-path: polygon(66% 77%, 64% 59%, 70% 64%, 67% 91%);
+  background-color: #c2af8e;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
 }
 /*# sourceMappingURL=style.css.map */
